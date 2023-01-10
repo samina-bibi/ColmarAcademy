@@ -1,0 +1,153 @@
+html {
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+img {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    z-index: 10000;
+    background-color: white;
+}
+
+header .mobile {
+    display: none;
+}
+
+header nav {
+    float: right;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 24px;
+}
+
+nav li {
+    padding: 0 16px;
+}
+
+#main-content {
+    padding-top: 64px;
+}
+
+#main-content .landing {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+}
+
+#main-content .landing .landing-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10%;
+}
+
+#main-content .landing-info h1 {
+    color: rgb(76, 76, 76);
+    font-size: 40px;
+}
+
+#main-content .landing-info p {
+    color: rgb(76, 76, 76);
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#main-content .landing-info button {
+    padding: 8px 0;
+    font-size: 22px;
+    color: white;
+    background-color: rgb(76, 76, 76);
+}
+
+#main-content .landing img {
+    width: 60%;
+    padding: 32px 24px;
+}
+
+#main-content .information .main-info {
+    width: 60%;
+}
+
+#main-content .information .main-info img {
+    max-width: 93.5%;
+    padding: 32px 24px;
+}
+
+#main-content .orientation .or-image {
+    width: 35%;
+    height: 35%;
+    padding: 16px 16px;
+}
+
+#main-content .information {
+    display: flex;
+    flex-direction: row;
+    background-color:rgb(235, 235, 235);
+}
+
+#main-content .information .main-info {
+    border-right: 1px solid lightgray;
+}
+
+#main-content .information .main-info h1 {
+    padding-left: 24px;
+    padding-bottom: 24px;
+    font-size: 40px;
+}
+
+.main-info p {
+    padding-bottom: 24px;
+    padding-left: 24px;
+}
+
+#main-content .information .main-info .quote-author {
+    padding-bottom: 32px;
+}
+
+#main-content .information .orientation .or-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.or-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+.or-text p {
+    padding-bottom: 8px;
+    padding-top: 0;
+}
+
+.or-text h3 {
+    font-size: 25px;
+    padding-bottom: 0;
+}
+
+.or-text a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
